@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/style/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <div class="links">
+                    <a href="#">Início</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Bombando</a>
+                    <a href="#">Minha Lista</a>
+                </div>
+                <div class="config">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+   
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOW I MET YOUR MOTHER</h3>
+                <p class="descricao">No ano de 2030, Ted Mosby, um arquiteto, decide
+                     explicar a seus filhos a história de como ele conheceu a mãe deles.
+                      Tudo começou em 2005, quando um de seus amigos decidiu se casar e 
+                      Ted precisou correr atrás de um amor. Então o Ted passa 9 temporadas 
+                      falando de diversas namoradas, idas e vindas com a "Tia" Robin para em 
+                      cerca de menos um episódio falar da mother e matar ela para então pedir
+                      a bença de seus filhos para ir atrás da idiota Scherbatsky, quer dizer, Robin.
+                </p>
+            </div>
+            <div class="btns">
+                <a href="https://www.youtube.com/watch?v=YLq9akcCHmE" target="_blank">
+                    <button role="button" class="btn">
+                        <i class="fa-solid fa-play"></i>
+                        Assisti Agorar
+                    </button>
+                </a>
+                <button role="button" class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                    <i class="fa-solid fa-circle-info"></i>
+                    Mais Informações
+                </button>
+            </div>  
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/img/mini1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">How I Met Your Mother</h3>
+          <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close" ><i class="fa-solid fa-xmark"></i></button>    
+        </div>
+        <div class="modal-body">
+            <img class="photo-serie" src="/img/himymphoto.jpg" alt="How I Met Your Mother elenco">
+            <div class="descricao">
+                <div class="descricao-serie">
+                    <p><span class="relevante">98% relevante</span> 2005 <span class="idade">12</span> 9 temporadas</p>
+                    <h5>Mais assistida na última semana</h5>
+                    <p>
+                        Ted Mosby, um arquiteto, conta a seus filhos os acontecimentos que o levaram a conhecer sua mãe. 
+                        Sua jornada se torna mais agitada pela presença de seus amigos Lily, Marshall, Robin e Barney.
+                    </p>
+                </div>
+                <div class="descricao-elenco">
+                    <p> <span> Elenco: </span> Josh Radnor, NeilPatrick, JasonSegel, ALyson Hannigan, Cobie Smulders, Cristin Milioti</p>
+                    <p> <span> Genêros: </span> Sitcom, Romance, Comédia, Drama, Comédia Romântica </p>
+                    <p> <span> Escritores: </span>  Carter Bays, Craig Thomas, Chris Romano, Jonathan Groff </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c60c2cfb59.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+</body>
+</html>

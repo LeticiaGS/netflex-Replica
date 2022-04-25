@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: var(--preta);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+}
+
+header .container h2.logo {
+  color: var(--vermelho);
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+header .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 2rem;
+  width: 100%;
+}
+
+header .container nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header .container nav a:hover {
+  color: #fff;
+}
+
+header .container nav .config i {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+main .filme-principal {
+  font-size: 16px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(/img/HIMYMWallpaper.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/HIMYMWallpaper.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: 0% 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 2rem;
+}
+
+main .filme-principal .titulo {
+  margin-top: 10%;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main .filme-principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+main .filme-principal .btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+main .filme-principal .btn:hover {
+  background-color: #fff;
+  color: #141414;
+}
+
+main .filme-principal .btn i {
+  margin-right: 8px;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 10px;
+}
+
+.box-filme {
+  cursor: pointer;
+}
+
+.modal {
+  color: #141414;
+}
+
+.modal .btn-close {
+  color: #fff;
+}
+
+.modal-content {
+  width: 800px;
+  right: 30%;
+  background-color: #141414;
+  color: #fff;
+}
+
+.photo-serie {
+  width: 500px;
+  height: 280px;
+  margin: 0 15%;
+}
+
+.descricao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.descricao .descricao-serie .relevante {
+  color: #1ebb1e;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.descricao .descricao-serie .idade {
+  background-color: #e50914;
+  border: 2px solid #e50914;
+  border-radius: 2px;
+  padding: 3px;
+  margin: 0 3px;
+  font-weight: bold;
+}
+
+.descricao .descricao-elenco {
+  font-size: 12px;
+  margin: 0 1rem;
+}
+
+.descricao .descricao-elenco span {
+  color: #aaa;
+}
+
+@media screen and (max-width: 730px) {
+  header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  main .filme-principal .btn {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
