@@ -11,7 +11,7 @@ Afim de conhecer a biblioteca JQuery, o bootcamp Web Developer Carrefour propôs
 
 ### Scrrenshort:
 <div align="center">
-<img src="https://github.com/LeticiaGS/netflex-Replica/issues/1#issue-1214837206.png" width="100px" />
+<img src="https://user-images.githubusercontent.com/69720222/165144559-88172723-4653-47d8-8ed1-bee9d5e54e20.png width="100px" />
 </div>
 
 ### Aprendizados:
