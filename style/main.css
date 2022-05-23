@@ -63,8 +63,8 @@ header .container nav .config i {
 
 main .filme-principal {
   font-size: 16px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(/img/HIMYMWallpaper.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/HIMYMWallpaper.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(./img/HIMYMWallpaper.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(./img/HIMYMWallpaper.jpg);
   height: 400px;
   background-size: cover;
   background-position: 0% 15%;
